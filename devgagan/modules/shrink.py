@@ -74,7 +74,7 @@ async def token_handler(client, message):
     user_id = message.chat.id
     if len(message.command) <= 1:
         image_url = ""
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+UJaHQO_h_B85Yzk0")
+        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+swkULppVhjQzZDc0")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/Satyamevjayte18")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
